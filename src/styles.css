@@ -10,3 +10,165 @@ body{
     background-color: #0e0e0e;
     color: white;
 }
+
+.welcome-container{
+    display: flex;
+    margin: 7rem auto 0 auto;
+    width: 80vw;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.welcome-container .titulo{
+    font-size: 4.6rem;
+    margin: 0 auto 4rem auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2.2rem;
+    padding: 0 5rem;
+    margin-bottom: 4.5rem;
+}
+.intro .intro-info{
+    font-size: 2.5rem;
+    line-height: 3.1rem;
+    flex-basis: 50rem;
+    flex-grow: 1;
+}
+
+.routes-container{
+    background-color: #eeeeee;
+    color: #0e0e0e;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.route_one{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: rgb(174 174 174 / 10%) 0px 0px 10px;
+    padding: 2rem 0 3rem 5.5rem;
+    border-radius: 1.2rem;
+    width: 80vw;
+    margin: 5rem auto 0 auto;
+    gap: 0.1rem;
+}
+.about-route_one{
+    text-align: left;
+    width: 70%;
+}
+.about-route_one .titulo{
+   font-size: 2rem;
+   margin: 2rem 0;
+}
+.about-route_one .subtitulo{
+    font-size: 4rem;
+}
+.about-route_one .parrafo{
+    margin: 2rem 0;
+    font-size: 1.8rem;
+}
+.imagen-route_one img{
+    background-size: contain;
+    width: 40vw;
+}
+
+.route_two{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: rgb(174 174 174 / 10%) 0px 0px 10px;
+    padding: 2rem 5.5rem 3rem 0;
+    border-radius: 1.2rem;
+    width: 80vw;
+    margin: 0 auto;
+    gap: 0.1rem;
+}
+.about-route_two{
+    text-align: left;
+    width: 70%;
+}
+.about-route_two .titulo{
+   font-size: 2rem;
+   margin: 2rem 0;
+   letter-spacing: 0.1rem;
+}
+.about-route_two .subtitulo{
+    font-size: 4rem;
+}
+.about-route_two .parrafo{
+    margin: 2rem 0;
+    font-size: 1.8rem;
+}
+.imagen-route_two img{
+    background-size: contain;
+    width: 40vw;
+}
+
+/*tercera ruta*/
+.route_three{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: rgb(174 174 174 / 10%) 0px 0px 10px;
+    padding: 2rem 0 3rem 5.5rem;
+    border-radius: 1.2rem;
+    width: 80vw;
+    margin: 0 auto 5rem auto;
+    gap: 0.1rem;
+}
+.about-route_three{
+    text-align: left;
+    width: 70%;
+}
+.about-route_three .titulo{
+   font-size: 2rem;
+   margin: 2rem 0;
+}
+.about-route_three .subtitulo{
+    font-size: 4rem;
+}
+.about-route_three .parrafo{
+    margin: 2rem 0;
+    font-size: 1.8rem;
+}
+.imagen-route_three img{
+    background-size: contain;
+    width: 40vw;
+}
+
+/*Footer*/
+footer{
+  padding: 5rem 8vw 2.5rem 7vw;
+  margin: 0 auto;
+  justify-content: center;
+}
+footer ul,ol{
+  list-style: none;
+}
+footer .footer-container{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.footer-container ul{
+  display: flex;
+  justify-content: center;
+}
+.footer-container ul li{
+  padding: 1rem 2rem 2rem 2rem;
+}
+.icons-footer{
+  font-size: 3.6rem;
+  color: #ffffff;
+}
+.footer-text{
+  padding: 1.5rem;
+  font-size: 2rem;
+}
