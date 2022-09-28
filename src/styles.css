@@ -13,7 +13,7 @@ body{
 
 .welcome-container{
     display: flex;
-    margin: 7rem auto 0 auto;
+    margin: 10rem auto 0 auto;
     width: 80vw;
     flex-direction: column;
     gap: 1.5rem;
@@ -65,13 +65,13 @@ body{
 }
 .about-route_one .titulo{
    font-size: 2rem;
-   margin: 2rem 0;
+   margin: 1.5rem 0;
 }
 .about-route_one .subtitulo{
     font-size: 4rem;
 }
 .about-route_one .parrafo{
-    margin: 2rem 0;
+    margin: 1.5rem 0;
     font-size: 1.8rem;
 }
 .imagen-route_one img{
@@ -96,14 +96,14 @@ body{
 }
 .about-route_two .titulo{
    font-size: 2rem;
-   margin: 2rem 0;
+   margin: 1.5rem 0;
    letter-spacing: 0.1rem;
 }
 .about-route_two .subtitulo{
     font-size: 4rem;
 }
 .about-route_two .parrafo{
-    margin: 2rem 0;
+    margin: 1.5rem 0;
     font-size: 1.8rem;
 }
 .imagen-route_two img{
