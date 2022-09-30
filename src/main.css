@@ -42,7 +42,7 @@ body{
 }
 
 .routes-container{
-    background-color: #eeeeee;
+    background-color: #666666;
     color: #0e0e0e;
     display: flex;
     flex-direction: column;
@@ -50,9 +50,9 @@ body{
 }
 .route_one{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     background-color: #ffffff;
-    box-shadow: rgb(174 174 174 / 10%) 0px 0px 10px;
     padding: 2rem 0 3rem 5.5rem;
     border-radius: 1.2rem;
     width: 80vw;
@@ -62,6 +62,10 @@ body{
 .about-route_one{
     text-align: left;
     width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    flex-grow: 9;
 }
 .about-route_one .titulo{
    font-size: 2rem;
@@ -71,20 +75,22 @@ body{
     font-size: 4rem;
 }
 .about-route_one .parrafo{
-    margin: 1.5rem 0;
+    margin: 2rem 2rem 2rem 0;
     font-size: 1.8rem;
 }
 .imagen-route_one img{
     background-size: contain;
     width: 40vw;
+    margin-right: 1rem;
 }
+/*Route two*/
 
 .route_two{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     background-color: #ffffff;
-    box-shadow: rgb(174 174 174 / 10%) 0px 0px 10px;
-    padding: 2rem 5.5rem 3rem 0;
+    padding: 2rem 0 3rem 5.5rem;
     border-radius: 1.2rem;
     width: 80vw;
     margin: 0 auto;
@@ -93,6 +99,10 @@ body{
 .about-route_two{
     text-align: left;
     width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    flex-grow: 9;
 }
 .about-route_two .titulo{
    font-size: 2rem;
@@ -103,7 +113,7 @@ body{
     font-size: 4rem;
 }
 .about-route_two .parrafo{
-    margin: 1.5rem 0;
+    margin: 2rem 2rem 2rem 0;
     font-size: 1.8rem;
 }
 .imagen-route_two img{
@@ -114,18 +124,22 @@ body{
 /*tercera ruta*/
 .route_three{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     background-color: #ffffff;
-    box-shadow: rgb(174 174 174 / 10%) 0px 0px 10px;
     padding: 2rem 0 3rem 5.5rem;
     border-radius: 1.2rem;
     width: 80vw;
-    margin: 0 auto 5rem auto;
+    margin: 0 auto 8rem auto;
     gap: 0.1rem;
 }
 .about-route_three{
     text-align: left;
     width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    flex-grow: 9;
 }
 .about-route_three .titulo{
    font-size: 2rem;
@@ -135,12 +149,13 @@ body{
     font-size: 4rem;
 }
 .about-route_three .parrafo{
-    margin: 2rem 0;
+    margin: 2rem 2rem 2rem 0;
     font-size: 1.8rem;
 }
 .imagen-route_three img{
     background-size: contain;
     width: 40vw;
+    margin-right: 1rem;
 }
 
 /*Footer*/
