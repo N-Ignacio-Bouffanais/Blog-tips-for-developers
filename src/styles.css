@@ -13,7 +13,7 @@ html{
 body{
   background: linear-gradient(90deg, rgba(19,33,215,1) 0%, rgba(176,2,175,1) 100%);
 }
-.container{
+.main-container{
   display: flex;
   flex-direction: column;
   gap: 5rem;
@@ -21,9 +21,8 @@ body{
   margin: 0 auto;
   color: #ffffff;
 }
-
-/*Container JavaScript*/
-.container .javascript{
+/*Gneral cards*/
+.main-container .card{
   background-color: var(--color-bg);
   border-radius: 1.5rem;
   width: 100%;
@@ -33,109 +32,80 @@ body{
   margin-top: 3rem;
   gap: 3rem;
 }
-.container .js{
+.main-container .card-content{
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   max-height: 40%;
 }
-.container .js-intro h1{
+
+/*JavaScript*/
+.main-container .js-intro h1{
   font-size: 4rem;
   margin: 1rem 0;
   color: #6c63ff;
 }
-.container .js-intro{
+.main-container .js-intro{
   font-size: 1.7rem;
   align-self: center;
   flex-basis: 48vw;
   flex-grow: 9;
 }
-.container .js-image img{
+.main-container .js-image img{
   background-size: contain;
   justify-content: center;
   width: 25vw;
 }
-.container .js-about{
+.main-container .js-about{
   width: 100%;
   margin-bottom: 2rem;
 }
-.container .js-about h2{
+.main-container .js-about h2{
   font-size: 2.2rem;
   margin-bottom: 1rem;
 }
-.container .js-about p,li{
+.main-container .js-about p,li{
   font-size: 1.7rem;
 }
-/*Container CSS */
-.container .css-container{
-  background-color: var(--color-bg);
-  border-radius: 1.5rem;
-  width: 100%;
-  padding: 0.5rem 3rem;
-  display: flex;
-  flex-direction: column;
-  margin-top: 3rem;
-  gap: 3rem;
-}
-.container .css{
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  max-height: 40%;
-}
-.container .css-intro h1{
+
+/*CSS */
+.main-container .css-intro h1{
   font-size: 4rem;
   margin: 1rem 0;
   color: #6c63ff;
 }
-.container .css-intro{
+.main-container .css-intro{
   font-size: 1.7rem;
   align-self: center;
   flex-basis: 48vw;
   flex-grow: 9;
 }
-.container .css-intro img{
+.main-container .css-intro img{
   background-size: contain;
   justify-content: center;
   width: 25vw;
 }
-.container .css-about h2{
+.main-container .css-about h2{
   font-size: 2.2rem;
   margin-bottom: 1rem;
 }
-.container .css-intro p,li{
+.main-container .css-intro p,li{
   font-size: 1.7rem;
 }
 
-/*Container HTML */
-.container .html-container{
-  background-color: var(--color-bg);
-  border-radius: 1.5rem;
-  width: 100%;
-  padding: 0.5rem 3rem;
-  display: flex;
-  flex-direction: column;
-  margin-top: 3rem;
-  gap: 3rem;
-}
-.container .html{
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  max-height: 40%;
-}
-.container .html-intro h1{
+/*HTML */
+.main-container .html-intro h1{
   font-size: 4rem;
   margin: 1rem 0;
   color: #6c63ff;
 }
-.container .html-intro{
+.main-container .html-intro{
   font-size: 1.7rem;
   align-self: center;
   flex-basis: 48vw;
   flex-grow: 9;
 }
-.container .html-intro img{
+.main-container .html-intro img{
   background-size: contain;
   justify-content: center;
   width: 25vw;
