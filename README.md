@@ -1,4 +1,4 @@
-# blog-ruta-frontend
+# Blog-tips-for-developers
 
 ## This is a Blog wich contains tips and guides for people who wants to become a software developer.
 
