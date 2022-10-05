@@ -1,0 +1,147 @@
+:root{
+  --color-bg: #252525;
+  --color-footer:#0e0e0e;
+}
+html{
+    font-size: 62.5%;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: var(--color-bg);
+    /*background: linear-gradient(90deg, rgba(19,33,215,1) 0%, rgba(176,2,175,1) 100%);*/
+    color: white;
+}
+
+.welcome-container{
+    display: flex;
+    margin: 6rem auto 0 auto;
+    width: 80vw;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.welcome-container .titulo{
+    font-size: 4rem;
+    margin: 0 auto 4rem auto;
+    text-align: center;
+    justify-content: center;
+}
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2.2rem;
+    padding: 0 5rem;
+    margin-bottom: 5rem;
+}
+.intro .intro-info{
+    font-size: 2.2rem;
+    line-height: 3rem;
+    flex-basis: 50rem;
+    flex-grow: 1;
+}
+
+/*Main*/
+main{
+  background: linear-gradient(90deg, rgba(19,33,215,1) 0%, rgba(176,2,175,1) 100%);
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  width: 80vw;
+  margin: 0 auto;
+  color: #ffffff;
+}
+/*Gneral cards*/
+.main-container .card{
+  background-color: var(--color-bg);
+  border-radius: 1.5rem;
+  width: 100%;
+  padding: 0.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  gap: 3rem;
+}
+.main-container .card h1{
+  font-size: 4rem;
+  margin: 1rem 0;
+  color: #6c63ff;
+}
+.main-container .card image{
+  background-size: contain;
+  justify-content: center;
+  width: 25vw;
+}
+
+/*JavaScript*/
+.main-container .js-about{
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.main-container .js-about h2{
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+.main-container .js-about p,li{
+  font-size: 1.7rem;
+}
+
+/*CSS */
+.main-container .css-intro{
+  font-size: 1.7rem;
+  align-self: center;
+  flex-basis: 48vw;
+  flex-grow: 9;
+}
+.main-container .css-about h2{
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+.main-container .css-intro p,li{
+  font-size: 1.7rem;
+}
+
+/*HTML */
+.main-container .html-intro{
+  font-size: 1.7rem;
+  align-self: center;
+  flex-basis: 48vw;
+  flex-grow: 9;
+}
+
+/*Footer*/
+footer{
+  padding: 5rem 8vw 2.5rem 7vw;
+  margin: 0 auto;
+  justify-content: center;
+  background-color: var(--color-footer);
+}
+footer ul,ol{
+  list-style: none;
+}
+footer .footer-container{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.footer-container ul{
+  display: flex;
+  justify-content: center;
+}
+.footer-container ul li{
+  padding: 1rem 2rem 2rem 2rem;
+}
+.icons-footer{
+  font-size: 3.6rem;
+  color: #ffffff;
+}
+.footer-text{
+  padding: 1.5rem;
+  font-size: 2rem;
+}
