@@ -1,5 +1,6 @@
 :root{
   --color-bg: #252525;
+  --color-footer:#0e0e0e;
 }
 html{
     font-size: 62.5%;
@@ -10,7 +11,8 @@ html{
     margin: 0;
 }
 body{
-    background-color: #0e0e0e;
+    background-color: var(--color-bg);
+    /*background: linear-gradient(90deg, rgba(19,33,215,1) 0%, rgba(176,2,175,1) 100%);*/
     color: white;
 }
 
@@ -27,7 +29,6 @@ body{
     text-align: center;
     justify-content: center;
 }
-
 .intro{
     display: flex;
     flex-wrap: wrap;
@@ -64,33 +65,21 @@ main{
   padding: 0.5rem 3rem;
   display: flex;
   flex-direction: column;
-  margin-top: 3rem;
+  margin-top: 5rem;
   gap: 3rem;
 }
-.main-container .card-content{
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  max-height: 40%;
-}
-
-/*JavaScript*/
-.main-container .js-intro h1{
+.main-container .card h1{
   font-size: 4rem;
   margin: 1rem 0;
   color: #6c63ff;
 }
-.main-container .js-intro{
-  font-size: 1.7rem;
-  align-self: center;
-  flex-basis: 48vw;
-  flex-grow: 9;
-}
-.main-container .js-image img{
+.main-container .card image{
   background-size: contain;
   justify-content: center;
   width: 25vw;
 }
+
+/*JavaScript*/
 .main-container .js-about{
   width: 100%;
   margin-bottom: 2rem;
@@ -104,21 +93,11 @@ main{
 }
 
 /*CSS */
-.main-container .css-intro h1{
-  font-size: 4rem;
-  margin: 1rem 0;
-  color: #6c63ff;
-}
 .main-container .css-intro{
   font-size: 1.7rem;
   align-self: center;
   flex-basis: 48vw;
   flex-grow: 9;
-}
-.main-container .css-intro img{
-  background-size: contain;
-  justify-content: center;
-  width: 25vw;
 }
 .main-container .css-about h2{
   font-size: 2.2rem;
@@ -129,29 +108,19 @@ main{
 }
 
 /*HTML */
-.main-container .html-intro h1{
-  font-size: 4rem;
-  margin: 1rem 0;
-  color: #6c63ff;
-}
 .main-container .html-intro{
   font-size: 1.7rem;
   align-self: center;
   flex-basis: 48vw;
   flex-grow: 9;
 }
-.main-container .html-intro img{
-  background-size: contain;
-  justify-content: center;
-  width: 25vw;
-}
-
 
 /*Footer*/
 footer{
   padding: 5rem 8vw 2.5rem 7vw;
   margin: 0 auto;
   justify-content: center;
+  background-color: var(--color-footer);
 }
 footer ul,ol{
   list-style: none;
