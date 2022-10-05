@@ -1,16 +1,51 @@
 :root{
   --color-bg: #252525;
 }
-
 html{
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
 *{
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 body{
+    background-color: #0e0e0e;
+    color: white;
+}
+
+.welcome-container{
+    display: flex;
+    margin: 6rem auto 0 auto;
+    width: 80vw;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.welcome-container .titulo{
+    font-size: 4rem;
+    margin: 0 auto 4rem auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2.2rem;
+    padding: 0 5rem;
+    margin-bottom: 5rem;
+}
+.intro .intro-info{
+    font-size: 2.2rem;
+    line-height: 3rem;
+    flex-basis: 50rem;
+    flex-grow: 1;
+}
+
+/*Main*/
+main{
   background: linear-gradient(90deg, rgba(19,33,215,1) 0%, rgba(176,2,175,1) 100%);
 }
 .main-container{
@@ -111,13 +146,12 @@ body{
   width: 25vw;
 }
 
+
 /*Footer*/
 footer{
   padding: 5rem 8vw 2.5rem 7vw;
   margin: 0 auto;
   justify-content: center;
-  background-color: black;
-  color: #ffffff;
 }
 footer ul,ol{
   list-style: none;
