@@ -1,6 +1,7 @@
 :root{
   --color-bg: #252525;
   --color-footer:#0e0e0e;
+  --color-title: #6c63ff;
 }
 html{
     font-size: 62.5%;
@@ -11,9 +12,8 @@ html{
     margin: 0;
 }
 body{
-    background-color: var(--color-bg);
-    /*background: linear-gradient(90deg, rgba(19,33,215,1) 0%, rgba(176,2,175,1) 100%);*/
-    color: white;
+  background-color: var(--color-bg);
+  color: white;
 }
 
 .welcome-container{
@@ -22,9 +22,10 @@ body{
     width: 80vw;
     flex-direction: column;
     gap: 1.5rem;
+    height: 100vh;
 }
 .welcome-container .titulo{
-    font-size: 4rem;
+    font-size: 3.2rem;
     margin: 0 auto 4rem auto;
     text-align: center;
     justify-content: center;
@@ -62,15 +63,15 @@ main{
   background-color: var(--color-bg);
   border-radius: 1.5rem;
   width: 100%;
-  padding: 0.5rem 3rem;
+  padding: 0.7rem 3rem;
   display: flex;
   flex-direction: column;
-  margin-top: 5rem;
+  margin-top: 7rem;
   gap: 3rem;
 }
 .main-container .card h1{
   font-size: 4rem;
-  margin: 1rem 0;
+  margin: 1.2rem;
   color: #6c63ff;
 }
 .main-container .card image{
