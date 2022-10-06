@@ -1,9 +1,8 @@
 :root {
-  --color-bg: #252525;
   --color-dark: #0e0e0e;
-  --color-white: rgb(247, 247, 247);
   --color-title: #6c63ff;
-  --color-light-blue:#1d7cc9;
+  --color-light-blue: #1d7cc9;
+  --color-red: rgb(255, 0, 106);
   --tw-gradient-stops: red, #1d29c9;
 }
 html {
@@ -17,6 +16,9 @@ html {
 body {
   background-color: var(--color-dark);
   color: white;
+}
+a {
+  text-decoration: none;
 }
 
 .welcome-container {
@@ -65,22 +67,30 @@ main {
   padding: 2rem 3rem;
   display: flex;
   flex-direction: column;
-  margin: 5rem 0;
+  margin: 4rem 0;
 }
-.main-container .card h1{
+.main-container .card h1 {
   font-size: 4.6rem;
   padding: 1rem 0;
-  color: #6c63ff;
+  color: var(--color-title);
 }
-.main-container .card p,li{
-  font-size: 2rem;
+.main-container .card p,
+li {
+  font-size: 1.9rem;
 }
-.main-container .card .about span{
+.main-container .card .about span {
   color: var(--color-light-blue);
 }
-.main-container .about h2 {
-  font-size: 2.2rem;
-  margin: 1rem 0;
+.main-container .about h2,
+h3 {
+  font-size: 2.4rem;
+  margin: 1rem 0 0.3rem;
+  color: var(--color-title);
+}
+.main-container .about a {
+  font-size: 2rem;
+  margin: 1rem;
+  color: var(--color-red);
 }
 
 /*Footer*/
