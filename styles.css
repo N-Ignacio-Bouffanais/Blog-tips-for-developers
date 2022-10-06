@@ -1,114 +1,125 @@
-:root{
+:root {
   --color-bg: #252525;
-  --color-footer:#0e0e0e;
+  --color-dark: #0e0e0e;
+  --color-title: #6c63ff;
+  --tw-gradient-stops: red, #1d29c9;
 }
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-body{
-    background-color: var(--color-bg);
-    /*background: linear-gradient(90deg, rgba(19,33,215,1) 0%, rgba(176,2,175,1) 100%);*/
-    color: white;
+body {
+  background-color: var(--color-dark);
+  color: white;
 }
 
-.welcome-container{
-    display: flex;
-    margin: 6rem auto 0 auto;
-    width: 80vw;
-    flex-direction: column;
-    gap: 1.5rem;
+.welcome-container {
+  display: flex;
+  margin: 6rem auto 0 auto;
+  width: 80vw;
+  flex-direction: column;
+  gap: 2rem;
 }
-.welcome-container .titulo{
-    font-size: 4rem;
-    margin: 0 auto 4rem auto;
-    text-align: center;
-    justify-content: center;
+.welcome-container .titulo {
+  font-size: 3.5rem;
+  margin: 6rem auto;
+  text-align: center;
+  justify-content: center;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
-.intro{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 2.2rem;
-    padding: 0 5rem;
-    margin-bottom: 5rem;
-}
-.intro .intro-info{
-    font-size: 2.2rem;
-    line-height: 3rem;
-    flex-basis: 50rem;
-    flex-grow: 1;
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 5rem 15rem;
+  font-size: 2.3rem;
+  line-height: 3rem;
 }
 
 /*Main*/
-main{
-  background: linear-gradient(90deg, rgba(19,33,215,1) 0%, rgba(176,2,175,1) 100%);
+main {
+  background: linear-gradient(
+    90deg,
+    rgba(19, 33, 215, 1) 0%,
+    rgba(176, 2, 175, 1) 100%
+  );
 }
-.main-container{
+.main-container {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
   width: 80vw;
   margin: 0 auto;
   color: #ffffff;
 }
 /*Gneral cards*/
-.main-container .card{
-  background-color: var(--color-bg);
+.main-container .card {
+  background-color: var(--color-dark);
   border-radius: 1.5rem;
   width: 100%;
-  padding: 0.5rem 3rem;
+  padding: 2rem 3rem;
   display: flex;
   flex-direction: column;
-  margin-top: 5rem;
+  margin: 5rem 0;
   gap: 3rem;
 }
-.main-container .card h1{
-  font-size: 4rem;
-  margin: 1rem 0;
+.main-container .card h1 {
+  font-size: 4.6rem;
+  padding: 3rem;
   color: #6c63ff;
 }
-.main-container .card image{
+.main-container .card img {
   background-size: contain;
   justify-content: center;
   width: 25vw;
+  margin-right: 5rem;
 }
 
 /*JavaScript*/
-.main-container .js-about{
+.main-container .title {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 3rem;
+}
+.main-container .title h1 {
+  flex-basis: 30rem;
+  flex-grow: 9;
+}
+.main-container .js-about {
   width: 100%;
   margin-bottom: 2rem;
 }
-.main-container .js-about h2{
+.main-container .js-about h2 {
   font-size: 2.2rem;
   margin-bottom: 1rem;
 }
-.main-container .js-about p,li{
-  font-size: 1.7rem;
+.main-container .js-about p,li {
+  font-size: 1.8rem;
 }
 
 /*CSS */
-.main-container .css-intro{
+.main-container .css-intro {
   font-size: 1.7rem;
   align-self: center;
   flex-basis: 48vw;
   flex-grow: 9;
 }
-.main-container .css-about h2{
+.main-container .css-about h2 {
   font-size: 2.2rem;
   margin-bottom: 1rem;
 }
-.main-container .css-intro p,li{
+.main-container .css-intro p,li {
   font-size: 1.7rem;
 }
 
 /*HTML */
-.main-container .html-intro{
+.main-container .html-intro {
   font-size: 1.7rem;
   align-self: center;
   flex-basis: 48vw;
@@ -116,32 +127,33 @@ main{
 }
 
 /*Footer*/
-footer{
+footer {
   padding: 5rem 8vw 2.5rem 7vw;
   margin: 0 auto;
   justify-content: center;
-  background-color: var(--color-footer);
+  background-color: var(--color-dark);
 }
-footer ul,ol{
+footer ul,
+ol {
   list-style: none;
 }
-footer .footer-container{
+footer .footer-container {
   display: grid;
   align-items: center;
   justify-content: center;
 }
-.footer-container ul{
+.footer-container ul {
   display: flex;
   justify-content: center;
 }
-.footer-container ul li{
+.footer-container ul li {
   padding: 1rem 2rem 2rem 2rem;
 }
-.icons-footer{
+.icons-footer {
   font-size: 3.6rem;
   color: #ffffff;
 }
-.footer-text{
+.footer-text {
   padding: 1.5rem;
   font-size: 2rem;
 }
