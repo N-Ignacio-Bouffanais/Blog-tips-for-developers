@@ -24,6 +24,7 @@
     >
     <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
     <header class="welcome-container">
       <div class="titulo">
@@ -40,8 +41,20 @@
       </div>
     </header>
     <main>
+      <section class="tecnologies">
+        <div class="tecnologies-content">
+          <h2>What tecnologies do you need to know?</h2>
+          <ol>
+            <li><a href="#javascript-card">JavaScript</a></li>
+            <li><a href="#CSS-card">CSS </a></li>
+            <li><a href="#HTML-card"> HTML</a></li>
+            <li><a href="#Git-card"> Git and Github </a></li>
+            <li><a href="#IDE"> IDE </a></li>
+          </ol>
+        </div>
+      </section>
       <section class="main-container">
-        <div class="card">
+        <div class="card" id="javascript-card">
           <div class="title">
             <h1>JavaScript</h1>
             <figure class="js-image">
@@ -82,12 +95,12 @@
                 alta fiabilidad y seguridad que reciban y procecen multiples
                 peticiones de una aplicacion.
               </li>
-              <li>-Entre otros temas como lo son Machine learning y Web 3.</li>
+              <li>-Amoung other topic such as Machine learning and Web 3.</li>
             </ol>
           </div>
         </div>
         <article>
-          <div class="card">
+          <div class="card" id="CSS-card">
             <div class="title">
               <h1>CSS</h1>
             </div>
@@ -97,16 +110,30 @@
             <div class="about">
               <h2>Frameworks</h2>
               <p>
-                CSS tiene varios frameworks, los cuales son una forma de
-                estilizar sitios webs de una manera mas sencilla y mas rapida.
+                CSS has several frameworks, which are a way of styling websites
+                in a simpler and faster way. The 2 most popular are:
               </p>
               <ol>
-                <li>Tailwind CSS</li>
-                <li>Bootstrap</li>
-                <li>Foundation</li>
-                <li>Pure CSS</li>
-                <li>Bulma</li>
+                <li>
+                  <h3>TailwindCSS</h3>
+                  <p>
+                    It stands out for its simplicity of learning and use, it is
+                    a great option if you want to have control over most of the
+                    styles of your websites.
+                  </p>
+                </li>
+                <li>
+                  <h3>Bootstrap</h3>
+                  <p>
+                    It focuses on giving you out-of-the-box components such as
+                    navigation bars, menus, buttons, tables, cards, and more
+                    things... The big drawback is the lack of control over
+                    styles, in other words, web pages designed with Bootstrap
+                    look a lot like each other.
+                  </p>
+                </li>
               </ol>
+              <p></p>
             </div>
           </div>
         </article>
@@ -126,21 +153,29 @@
               <h1>Git and Github</h1>
             </div>
             <figure>
-              <img src="/public/undraw_version_control_re_mg66.svg" alt="Imagen de HTML" />
+              <img
+                src="/public/undraw_version_control_re_mg66.svg"
+                alt="Imagen de HTML"
+              />
             </figure>
           </div>
         </article>
         <article>
           <div class="card">
             <div class="about">
-              <h1>Frameworks</h1>
+              <h1>IDE</h1>
             </div>
             <figure>
-              <img src="/public/Code Development _Flatline.svg" alt="Imagen de HTML" />
+              <img
+                src="/public/Code Development _Flatline.svg"
+                alt="Code Image"
+              />
             </figure>
           </div>
         </article>
       </section>
+      <section class="links-repo"></section>
+      <section class="youtube channels"></section>
     </main>
     <footer>
       <div class="footer-container">

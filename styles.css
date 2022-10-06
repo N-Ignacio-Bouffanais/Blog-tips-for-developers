@@ -1,7 +1,9 @@
 :root {
   --color-bg: #252525;
   --color-dark: #0e0e0e;
+  --color-white: rgb(247, 247, 247);
   --color-title: #6c63ff;
+  --color-light-blue:#1d7cc9;
   --tw-gradient-stops: red, #1d29c9;
 }
 html {
@@ -24,11 +26,10 @@ body {
   flex-direction: column;
   gap: 2rem;
 }
-.welcome-container .titulo {
-  font-size: 3.5rem;
-  margin: 6rem auto;
+.welcome-container .titulo h1 {
+  font-size: 7rem;
+  margin: 4rem auto;
   text-align: center;
-  justify-content: center;
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -36,14 +37,24 @@ body {
 }
 .intro {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 4rem 5rem 15rem;
+  margin: 3rem 2rem 12rem;
   font-size: 2.3rem;
   line-height: 3rem;
 }
 
 /*Main*/
+.tecnologies{
+  width: 100%;
+  background-color: var(--color-white);
+  padding: 5rem 10vw;
+  color: #0e0e0e;
+  text-align: center;
+}
+.tecnologies h2{
+  margin: 2rem auto;
+  font-size: 4rem;
+}
+
 main {
   background: linear-gradient(
     90deg,
@@ -58,7 +69,7 @@ main {
   margin: 0 auto;
   color: #ffffff;
 }
-/*Gneral cards*/
+/*General cards*/
 .main-container .card {
   background-color: var(--color-dark);
   border-radius: 1.5rem;
@@ -69,7 +80,7 @@ main {
   margin: 5rem 0;
   gap: 3rem;
 }
-.main-container .card h1 {
+.main-container .card h1{
   font-size: 4.6rem;
   padding: 3rem;
   color: #6c63ff;
@@ -79,6 +90,9 @@ main {
   justify-content: center;
   width: 25vw;
   margin-right: 5rem;
+}
+.main-container .card .about span{
+  color: var(--color-light-blue);
 }
 
 /*JavaScript*/
